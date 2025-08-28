@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">My Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home-section">
+        <h2>Hi, I'm <span id="name">FAWZUALEAMAN K</span></h2>
+        <p>A passionate Web Developer</p>
+        <P>Currently I'm Studying BCA Second Year in Dr. M. G. R. Chockalingam Arts College, Arni. <br>Affilated to Thiruvalluvar University.</P>
+        <button onclick="scrollToSection('contact')">Hire Me</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a web developer with a passion for creating interactive and user-friendly websites. I love coding and learning new technologies.</p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">C++ Programming</div>
+            <div class="skill">MS- OFFICE</div>
+            <div class="skill">React</div>
+            <div class="skill">Python</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">An Portfolio Website (which was screening)</div>
+        <div class="project-card">Mini E-commerce Website</div>
+    </section>
+
+<section id="resume">
+    <h2>My Resume</h2>
+    <p>You can view or download my resume here:</p>
+    <a href="C:\Users\fawzu\Downloads\MY RESUME.pdf" target="_blank" class="download-btn">View Resume</a>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <ul>
+        <li>BCA - Dr. M. G. R. Chockalingam Arts College, Arni (2024 - Present)</li>
+        <li>SSLC & HSC - Carmel Matriculation Higher Secondary School (2021 - 2024)</li>
+    </ul>
+</section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio | All Rights Reserved</p>
+    </footer>
+
+    <script src="myscript.js"></script>
+</body>
+</html>
